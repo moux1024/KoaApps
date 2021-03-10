@@ -1,0 +1,41 @@
+{
+  "name": "KoaSPAs",
+  "version": "1.0.0",
+  "description": "a example of koa+vue+webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rm -rf ./dist && npx webpack --mode=development && node index.js",
+    "build": "npx webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moux1024/moux1024/KoaApps.git"
+  },
+  "keywords": [
+    "koa",
+    "vue",
+    "webpack"
+  ],
+  "author": "moux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moux1024/KoaApps/issues"
+  },
+  "homepage": "https://github.com/moux1024/KoaApps#readme",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.7",
+    "koa": "^2.13.1",
+    "pug": "^3.0.2",
+    "vue": "^3.0.7",
+    "vue-loader": "^16.0.0-beta.4",
+    "webpack": "^5.24.2",
+    "webpack-dev-middleware": "^4.1.0"
+  },
+  "alias": {
+    "deps": "./deps/"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
+}
